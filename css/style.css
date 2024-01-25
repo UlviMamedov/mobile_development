@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Thin", sans-serif;
+}
+
+.head {
+    width: 100%;
+    height: 700px;
+    background: #EEEFF1;
+}
+
+.centered {
+    width: 1260px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.container ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.container ul li:first-child a {
+    color: #34547A;
+}
+
+.container ul li a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.6px
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.thing_margin {
+    margin-left: 35px;
+}
+
+.head_home_text {
+    width: 100%;
+    height: 100px;
+}
+
+.head_home_text h1 {
+    color: #000;
+    font-size: 48px;
+}
+
+.head_paragraph_text {
+    width: 525px;
+    height: 150px;
+}
+
+.head_paragraph_text p {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.head_button button {
+    width: 225px;
+    height: 65px;
+    background: #34537A;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    cursor: pointer;
+}
+
+.first_section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.first_section_home_text {
+    height: 60px;
+}
+
+.first_section_home_text h1 {
+    font-size: 32px;
+    color: #000
+}
+
+.first_section_about_me p {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.about_person {
+    width: 100%;
+    text-align: center;
+}
+
+.second_section {
+    width: 100%;
+    height: 250px;
+    background: #34547A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-texts {
+    margin-left: 15px;
+}
+
+.block-number {
+    font-size: 21px;
+    color: #fff;
+    display: block;
+    line-height: 30px;
+}
+
+.block {
+    width: 200px;
+    display: flex;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.block-project {
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.third_section {
+    width: 100%;
+    height: 1004px;
+    background: #EEEFF1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.general-block {
+    width: 1110px;
+    height: 850px;
+    text-align: center;
+}
+
+.third_section_head h1 {
+    font-size: 32px;
+}
+
+.third_section_text {
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+
+.third_section_text p {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.third_section_video iframe {
+    width: 1110px;
+    height: 600px;
+}
+
+footer {
+    width: 100%;
+    height: 151px;
+    background: #34547A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-block {
+    width: 1260px;
+    height: 100%;
+    display: inline-block;
+}
+
+.footer-end {
+    position: relative;
+    top: 15px;
+}
+
+.footer-end h4 {
+    font-size: 21px;
+    color: #fff;
+    position: relative;
+    top: 15px;
+}
+
+.footer-end p {
+    color: #fff;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1345px) {
+    .centered {
+        width: 100%;
+    }
+
+    .thing_margin {
+        margin-left: 0;
+    }
+
+    .head_button button {
+        margin-left: 35px;
+    }
+
+    .head_paragraph_text p {
+        margin-left: 35px;
+    }
+
+    .head_home_text h1 {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .third_section_video iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 621px) {
+    .block {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 538px) {
+    .head_paragraph_text {
+        width: 100%;
+    }
+
+    .container ul li {
+        line-height: 32px;
+    }
+
+    .row {
+        height: auto;
+    }
+}
